@@ -1,0 +1,252 @@
+:root{
+  --color:#ff523b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.logo-top img {
+  border-radius: 50%;
+  width: 5rem;
+  /* margin-top: 12rem; */
+  margin-left: 4rem;
+  margin-right: 12rem;
+  /* border: 10px solid #ff523b; */
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #555;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.center {
+  display: block;
+  margin-top: -7.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  width: 100%;
+}
+
+.top {
+  margin-left: 24rem;
+}
+.img img {
+  border-radius: 50%;
+  width: 15rem;
+  margin-top: 12rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  border: 10px solid #ff523b;
+}
+.tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-right: -2rem;
+  margin-left: 12rem;
+}
+.tag h1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 5rem;
+}
+.tag h3 {
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+.details {
+  margin-left: -5rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column-reverse; */
+  /* flex: 1; */
+}
+ul {
+  display: inherit;
+  padding-left: -1rem;
+  list-style-type: none;
+}
+ul li {
+  padding-left: 3rem;
+  font-size: 2rem;
+}
+.menu {
+  text-decoration: none;
+  color: #555;
+
+  background-color: #ff523b;
+  border-radius: 12px;
+  padding: 0px 19px;
+  /* border: 1px solid #ffd6d6; */
+}
+
+/* About section */
+
+.heading {
+  text-align: center;
+  margin: 0 6rem;
+  padding: 6rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 600;
+  border-bottom: 0.1px solid #fff4;
+}
+
+.heading span{
+  color: var(--color);
+}
+
+.about .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.about .row .info {
+  flex: 48rem;
+  /* padding: 5rem; */
+  margin-left: 8rem;
+}
+.about .row .info h3 {
+  font-size: 1.5rem;
+  color: var(--color);
+  font-weight: bold;
+  padding: 1rem 0;
+}
+.about .row .info h3 span {
+  color: #222;
+  padding: 0 .5rem;
+}
+
+.about .row .side {
+  flex: 25rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about .row .side .box {
+  width: 10rem;
+  background: #222;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+.about .row .side .box span {
+  font-size: 2rem;
+  color: var(--color);
+}
+.about .row .side .box h3 {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.achievements .slot-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 3rem;
+  margin-right: 4rem;
+}
+
+.achievements .slot-container .slot {
+  width: 27rem;
+  margin: 4rem 1rem;
+  padding-left: 4rem;
+  border-left: .2rem solid #222;
+  position: relative;
+}
+
+.achievements .slot-container .slot span {
+  font-size: 1.3rem;
+  background: #222;
+  color: #fff;
+  border-radius: 5rem;
+  padding: .5rem 2.5rem;
+}
+
+.achievements .slot-container .slot h3 {
+  font-size: 2rem;
+  color: #222;
+  padding-top: 1.5rem;
+}
+
+.achievements .slot-container .slot p {
+  font-size: 1.4rem;
+  color: #222;
+  padding: 1rem 0;
+}
+
+.achievements .slot-container .slot i {
+  position: absolute;
+  top: -1.5rem;
+  left: -2.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  background: var(--color);
+}
+
+.hobies .slot-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.hobies .slot-container .slot-1{
+  height: 32rem;
+  width: 35rem;
+  border-radius: 2rem;
+  margin: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.hobies .slot-container .slot-1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
